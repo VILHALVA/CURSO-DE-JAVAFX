@@ -4,7 +4,7 @@
 <img src="FOTO.png" align="center" width="400"> <br>
 
 ## CONCEITO:
-JavaFX é uma Bíblioteca (plataforma) de desenvolvimento rica para criar **aplicações gráficas (GUI)** modernas e sofisticadas em **Java**. Ele é projetado para substituir o Swing como a principal biblioteca para GUIs no Java. JavaFX oferece uma ampla gama de recursos que tornam o desenvolvimento mais intuitivo, flexível e visualmente atraente. Aqui estão os principais aspectos do JavaFX:
+JavaFX é uma Bíblioteca (plataforma) de desenvolvimento rica para criar **aplicações gráficas (GUI)** modernas e sofisticadas em **Java**. Ele é projetado para substituir o Swing como a principal biblioteca para GUIs no Java. JavaFX oferece uma ampla gama de recursos que tornam o desenvolvimento mais intuitivo, flexível e visualmente atraente. 
 
 ## SUA HISTÓRIA:
 1. **Início: A Criação pela Sun Microsystems (2007)**
