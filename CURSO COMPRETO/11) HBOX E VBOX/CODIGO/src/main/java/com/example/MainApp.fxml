@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.Controller" spacing="20" alignment="center">
+    <!-- Título do layout -->
+    <Label text="Escolha um botão:" />
+
+    <!-- HBox com dois botões -->
+    <HBox spacing="10" alignment="center">
+        <Button text="Botão 1" onAction="#handleButton1"/>
+        <Button text="Botão 2" onAction="#handleButton2"/>
+    </HBox>
+
+    <!-- Label para exibir a opção selecionada -->
+    <Label fx:id="label" text="Nenhum botão pressionado" />
+</VBox>

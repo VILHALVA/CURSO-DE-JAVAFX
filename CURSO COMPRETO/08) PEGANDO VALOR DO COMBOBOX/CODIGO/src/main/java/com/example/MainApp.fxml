@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.Controller">
+    <!-- ComboBox onde as frutas serão listadas -->
+    <ComboBox fx:id="comboBox" promptText="Escolha uma fruta" />
+    
+    <!-- Botão para exibir a fruta selecionada -->
+    <Button text="Mostrar Fruta Selecionada" onAction="#handleButtonAction" />
+    
+    <!-- Label que exibirá a fruta selecionada -->
+    <Label fx:id="label" text="Fruta selecionada aparecerá aqui!" />
+</StackPane>
